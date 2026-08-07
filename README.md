@@ -50,13 +50,3 @@ Examples
 ```powershell
 python main.py octocat
 ```
-
-Notes & suggestions
--------------------
-
-- To increase rate limits or access private events, modify `request.py` to include an `Authorization: token <TOKEN>` header. I can add that change if you'd like.
-- Consider adding CLI argument parsing (argparse) to support flags for output format, event filtering, or limiting results.
-- Tests and a `requirements.txt` are optional; the project currently has no third-party dependencies.
-
-Want me to add token support or CLI arguments? I can implement either quickly.
-- If you want, I can add argument parsing (username, output format) or create a simple requirements file.
